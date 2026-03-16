@@ -2,16 +2,60 @@
 <html lang="pt-br">
 
 <head>
+
 <meta charset="UTF-8">
 <title>Portfólio QA - Mundo Real Tech</title>
 
 <style>
 
+/* ESTILO GERAL */
+
 body{
 margin:0;
-font-family:Arial;
+font-family:Arial, Helvetica, sans-serif;
 background:#0f172a;
 color:white;
+text-align:center;
+}
+
+/* ROLAGEM SUAVE */
+
+html{
+scroll-behavior:smooth;
+}
+
+/* MENU */
+
+nav{
+background:#1e293b;
+padding:15px;
+position:sticky;
+top:0;
+}
+
+/* BOTÕES DO MENU */
+
+nav a{
+color:white;
+text-decoration:none;
+margin:10px;
+padding:10px 18px;
+border-radius:8px;
+font-weight:bold;
+transition:0.3s;
+}
+
+/* EFEITO HOVER */
+
+nav a:hover{
+background:#F6E58D;
+color:black;
+}
+
+/* SEÇÕES */
+
+section{
+padding:80px 20px;
 }
 
 </style>
@@ -20,8 +64,87 @@ color:white;
 
 <body>
 
+<!-- MENU -->
+
+<nav>
+
+<a href="#home">Home</a>
+<a href="#sobre">Sobre</a>
+<a href="#projetos">Projetos QA</a>
+<a href="#ferramentas">Ferramentas</a>
+<a href="#contato">Contato</a>
+
+</nav>
+
+<!-- HOME -->
+
+<section id="home">
+
 <h1>Portfólio QA</h1>
-<p>Especialização em testes de software</p>
+
+<p>
+Especialização em testes de software<br>
+Testes manuais | API | Postman
+</p>
+
+</section>
+
+<!-- SOBRE -->
+
+<section id="sobre">
+
+<h2>Sobre mim</h2>
+
+<p>
+Profissional com experiência em suporte técnico e testes de sistemas.
+Atualmente me especializando em Quality Assurance (QA),
+com foco em testes manuais, validação de funcionalidades e testes de API.
+</p>
+
+</section>
+
+<!-- PROJETOS -->
+
+<section id="projetos">
+
+<h2>Projetos QA</h2>
+
+<p>
+Testes de API utilizando Postman.<br>
+Validação de respostas e status code.
+</p>
+
+</section>
+
+<!-- FERRAMENTAS -->
+
+<section id="ferramentas">
+
+<h2>Ferramentas</h2>
+
+<p>
+Postman<br>
+GitHub<br>
+Testes manuais<br>
+API Testing
+</p>
+
+</section>
+
+<!-- CONTATO -->
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<p>
+GitHub<br>
+LinkedIn<br>
+Email
+</p>
+
+</section>
 
 </body>
+
 </html>
