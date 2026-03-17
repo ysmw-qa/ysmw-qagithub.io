@@ -18,5 +18,19 @@
         <button> Acessar</button>
     </form>
       </div>
+    <script>
+      const form = document.getElementById("loginForm");
+      form.addEventListener("submit",function(event){event.preventDefault(); //evita q a pag recarregue
+
+      const usuario = document.getElementById("usuario").value;
+      const senha = document.getElementById("senha").value;
+
+          if(usuario === "admin" && senha === "1234"){
+            alert("login realizado com sucesso!");
+          }else{
+            alert("usuario ou senha incorretos!");
+          }
+                                                    });
+    </script>
   </body>
 </html>
