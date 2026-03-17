@@ -19,6 +19,7 @@
     </form>
       </div>
     <script>
+      document.addEventListener("DOMContentLoaded", funcion(){
       const form = document.getElementById("loginForm");
       form.addEventListener("submit",function(event){event.preventDefault(); //evita q a pag recarregue
 
@@ -31,6 +32,7 @@
             alert("usuario ou senha incorretos!");
           }
                                                     });
+      });
     </script>
   </body>
 </html>
