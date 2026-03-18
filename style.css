@@ -33,7 +33,7 @@ button{
   margin-top: 10px;
   display: flex;
   flex-direction: column; /* coloca um embaixo do outro */
-  gap: 5px; /* espaço entre eles */
+  gap: 15px; /* espaço entre eles */
 }
 .links a{
   font-size: 12px;
