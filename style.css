@@ -35,7 +35,7 @@ button{
   flex-direction: column; /* coloca um embaixo do outro */
   gap: 10px; /* espaço entre eles */
 }
-.links.cadastrar{
+.links .cadastrar{
   font-size: 12px;
   color: #6c63ff;
   text-decoration: none;
